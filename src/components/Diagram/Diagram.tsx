@@ -37,7 +37,7 @@ function Diagram() {
   return (
     <div className="diagram">
       <h1 className='diagram__heading'>Spent time(seconds)</h1>
-      <button ref={btnRef} onClick={changeData}>Change values</button>
+      <button ref={btnRef} onClick={changeData} data-testid="changeDataBtn">Change values</button>
       {
         data.map((item: inputI, index: number) => {
           let prevItemsPercent = 0;  

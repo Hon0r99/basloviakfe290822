@@ -6,7 +6,7 @@ import Diagram from './components/Diagram/Diagram';
 function App() {
   return (
     <div className="App">
-      <Diagram></Diagram>
+      <Diagram data-testid="diagram"></Diagram>
     </div>
   );
 }
