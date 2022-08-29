@@ -1,0 +1,25 @@
+.diagram-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  margin: 10px;
+}
+
+.diagram-item__name {
+  margin-right: 20px;
+}
+
+.diagram-item__view {
+  position: relative;
+  width: 100px;
+  height: 20px;
+  background: rgb(167, 167, 167);
+}
+
+.view__colored {
+  position: absolute;
+  background: rgb(122, 224, 255);
+  height: 20px;
+  z-index: 2;
+}
