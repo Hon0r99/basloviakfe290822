@@ -47,7 +47,7 @@ function Diagram() {
               prevItemsPercent += Math.floor(100 * data[index - i].time / allTimeSpent); 
             }
           }    
-          return <DiagramItem key={item.time} name={item.name} prevItemPercent={prevItemsPercent} percent={currentPercent}></DiagramItem>
+          return <DiagramItem key={item.name} name={item.name} prevItemPercent={prevItemsPercent} percent={currentPercent}></DiagramItem>
         })
       }
     </div>
